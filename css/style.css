@@ -1,0 +1,34 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.l{
+    list-style: none;
+    justify-content: space-evenly;
+}
+.p1,.p2,.p3,.p4{
+    
+    height: 300px;
+    background-image: url("../images/jeep.webp");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white;
+    text-align: center;
+  font-weight: bold;
+  font-size: large;
+}
+.p2{
+    background-image: url("../images/bmw.webp");
+}
+.p3{
+    background-image: url("../images/nessan6.webp");
+}
+.p4{
+    background-image: url("../images/login.webp");
+}
+.btn,.score,.total{
+   margin-left: 300px;
+   color: blue;
+}
