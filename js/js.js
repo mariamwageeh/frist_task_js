@@ -1,7 +1,7 @@
 var products=document.querySelectorAll(".container ul li")
 var score=document.querySelector(".score")
 var price=0
-var btn=document.querySelector(".btn")
+var btn=document.querySelector(".btn");
 var total=document.querySelector(".total")
 
 products.forEach(function(item){
